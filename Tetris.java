@@ -1,8 +1,6 @@
-/** Name: Sachihiko Kanda
- *  email: sakanda@ucsd.edu*
+/** 
  *  Contains constructors, instance variables, and methods which code for 
  *  a game of Tetris.
- * 
  * */
 
 
@@ -342,9 +340,6 @@ public class Tetris {
       }
       usedHold = true;
     }
-
-
-    // TODO extra credit
   }
 
   /**
