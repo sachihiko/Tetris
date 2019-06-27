@@ -1,10 +1,5 @@
 /**
- * Game.java
- * Sachihiko Kanda
- * sakanda@ucsd.edu
- * 22 May 2018
- *
- * This program implements an application that implements a GUI for the game
+ * This program implements a GUI application for the game
  * Tetris. A Grid of squares is displayed in a window, changing colors along
  * with the current status of the game.
  */
@@ -352,13 +347,9 @@ public class Game extends Application {
     }
   }
 
-
-  /* ---------------- DO NOT EDIT BELOW THIS LINE ---------------- */
-
   /**
    * private class GuiTetris.MoveDownWorker
-   * a thread that simulates a downwards keypress every some interval
-   * @author Junshen (Kevin) Chen
+   * Thread that simulates a downwards keypress every interval
    */
   private class MoveDownWorker extends Thread{
 
@@ -367,15 +358,15 @@ public class Game extends Application {
 
     /**
      * method run
-     * called when the thread begins, decrements the timer every iteration
+     * Called when the thread begins, decrements the timer every iteration
      * of a loop, reset the timer and sends a keydown when timer hits 0
      */
     @Override
     public void run(){
 
-      // run forever until returned
+      // loop continues until returned
       while (true) {
-        // stop the thread if the game is over
+        // stops thread if the game is over
         if (tetris.isGameover) return; 
 
         // wait 1ms per iteration
@@ -399,7 +390,7 @@ public class Game extends Application {
         }
       }
     }
-  } // end of private class MoveDownWorker
+  } 
 
 }
 
