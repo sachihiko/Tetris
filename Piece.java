@@ -1,9 +1,5 @@
-/** Name: Sachihiko Kanda
- *  email: sakanda@ucsd.edu
+/** 
  *  Contains the constructors, instance variables, and methods for a Piece Object in the game Tetris.
- *
- *
- * 
  * */
 
 import java.util.*;
@@ -169,7 +165,7 @@ public class Piece {
 
 
   /**
-   * This method rotates the instance variable tiles of the
+   * Rotates the instance variable tiles of the
    * Piece Object according to Tetris rules. O, T, L, and J
    * pieces always rotate clockwise, while other pieces 
    * alternate between counterclockwise and clockwise rotations
@@ -241,7 +237,7 @@ public class Piece {
         tiles[i][j] = rotated_tiles[i][j];
   }
 
-  /** This method takes in the Direction enumerator and changes
+  /** Takes in the Direction enumerator and changes
    * the position of the Piece Object on the board accordingly
    * @param direction
    * @return none
