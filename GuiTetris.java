@@ -1,9 +1,4 @@
 /**
- * GuiTetris.java
- * Sachihiko Kanda
- * sakanda@ucsd.edu
- * 22 May 2018
- *
  * This program implements an application that implements a GUI for the game
  * Tetris. A Grid of squares is displayed in a window, changing colors along
  * with the current status of the game.
