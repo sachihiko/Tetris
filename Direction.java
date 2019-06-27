@@ -1,7 +1,4 @@
 /**
- * Direction.java
- * Sachihiko Kanda
- * 24 April 2018
  * contains an enum defining movable directions for Tetris
  */
 
